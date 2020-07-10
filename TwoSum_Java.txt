@@ -1,0 +1,20 @@
+Runtime: 111 ms, faster than 6.29% of Java online submissions for Two Sum.
+Memory Usage: 41.1 MB, less than 14.88% of Java online submissions for Two Sum.
+
+class Solution {
+    public int[] twoSum(int[] nums, int target) {
+        //for loop where you would iteratively go through the list
+        // and see whether the current number correctly sums with another.
+        
+       for (int i = 0; i < nums.length; i++) {
+           for (int j = 0; j < nums.length; j++) {
+               int sum = nums[i] + nums[j];
+               if ((sum == target) && (i != j)) {
+                   int arr[] = {i, j};
+                   return arr;
+               }
+           }
+       }
+        return null; 
+    }
+}
