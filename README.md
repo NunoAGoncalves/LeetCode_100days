@@ -1,6 +1,8 @@
 # LeetCode 100 days
 
-A LeetCode question a day for a hundred days. Ongoing development. 1/100 so far. 
+A LeetCode question a day for a hundred days. Ongoing development. 
+
+2/100 so far. 
 
 This is a repository that holds all the LeetCode questions I completed in this 100-day challenge.
 
