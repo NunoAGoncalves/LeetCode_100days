@@ -10,6 +10,8 @@ TwoSum – Completed on 10/07/2020 ✓
 
 Running Sum of a 1D Array  – Completed on 11/07/2020 ✓
 
+Number of Good Pairs – Completed on 12/07/2020 ✓
+
 ## Description
 
 This is a repository that holds all the LeetCode questions I completed in this 100-day challenge.
