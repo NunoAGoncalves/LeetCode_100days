@@ -4,6 +4,8 @@ A LeetCode question a day for a hundred days. Ongoing development.
 
 2/100 so far. 
 
+## Description
+
 This is a repository that holds all the LeetCode questions I completed in this 100-day challenge.
 
 I decided to commit to this challenge as I personally felt that my coding ability was mediocre at best – and I wanted to improve. I have been stuck on the same level of programming for about 4 years now, so I felt like the time was right to kick it up a notch. 
