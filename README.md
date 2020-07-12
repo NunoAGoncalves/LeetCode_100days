@@ -1,6 +1,16 @@
 # LeetCode 100 days
 
-A LeetCode question a day for a hundred days. Ongoing development. 1/100 so far. 
+A LeetCode question a day for a hundred days. Ongoing development. 
+
+2/100 so far. 
+
+## Questions Completed
+
+TwoSum – Completed on 10/07/2020 ✓
+
+Running Sum of a 1D Array  – Completed on 11/07/2020 ✓
+
+## Description
 
 This is a repository that holds all the LeetCode questions I completed in this 100-day challenge.
 
@@ -10,6 +20,3 @@ In this repository, I have stored the LeetCode questions in a text file format. 
 
 Throughout the challenge, I'll write some additional comments for each question if I can, detailing my thought process and the potential mistakes I committed. The solutions to these questions are not the ideal solution but just what I came up with at the time. 
 
-## Questions Completed
-
-TwoSum – Completed on 10/07/2020 ✓
