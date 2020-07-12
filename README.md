@@ -13,4 +13,5 @@ Throughout the challenge, I'll write some additional comments for each question 
 ## Questions Completed
 
 TwoSum – Completed on 10/07/2020 ✓
+
 Running Sum of a 1D Array  – Completed on 11/07/2020 ✓
