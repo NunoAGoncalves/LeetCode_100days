@@ -1,0 +1,19 @@
+class Solution {
+    public int[] shuffle(int[] nums, int n) {
+        int[] anotherArray = new int[nums.length];
+        int buffer = 0;
+        
+        for (int i = 0, k = 0, j = n; i < nums.length; i++) {
+            if (i % 2 == 0) {
+                anotherArray[i] = nums[k];
+                k++;
+            }
+            else {
+                anotherArray[i] = nums[j];
+                j++;
+            }
+        }
+        
+        return anotherArray;
+    }
+}
