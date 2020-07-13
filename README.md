@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-3/100 so far. 
+4/100 so far. 
 
 ## Questions Completed
 
@@ -11,6 +11,8 @@ TwoSum – Completed on 10/07/2020 ✓
 Running Sum of a 1D Array  – Completed on 11/07/2020 ✓
 
 Number of Good Pairs – Completed on 12/07/2020 ✓
+
+Shuffle the Array - Completed on 13/07/2020 ✓
 
 ## Description
 
