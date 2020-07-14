@@ -1,3 +1,6 @@
+// Runtime: 17 ms, faster than 7.06% of Java online submissions for Group the People Given the Group Size They Belong To.
+// Memory Usage: 49.9 MB, less than 19.75% of Java online submissions for Group the People Given the Group Size They Belong To.
+
 class Solution {
     public List<List<Integer>> groupThePeople(int[] groupSizes) {
       

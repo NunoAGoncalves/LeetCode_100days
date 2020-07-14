@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-4/100 so far. 
+5/100 so far. 
 
 ## Questions Completed
 
@@ -13,6 +13,8 @@ Running Sum of a 1D Array  – Completed on 11/07/2020 ✓
 Number of Good Pairs – Completed on 12/07/2020 ✓
 
 Shuffle the Array - Completed on 13/07/2020 ✓
+
+Group the People Given the Group Size They Belong To - Completed on 14/07/2020 ✓
 
 ## Description
 
