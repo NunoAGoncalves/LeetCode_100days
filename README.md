@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-5/100 so far. 
+6/100 so far. 
 
 ## Questions Completed
 
@@ -15,6 +15,8 @@ Number of Good Pairs – Completed on 12/07/2020 ✓
 Shuffle the Array - Completed on 13/07/2020 ✓
 
 Group the People Given the Group Size They Belong To - Completed on 14/07/2020 ✓
+
+Path Crossing - Completed on 15/07/2020 ✓
 
 ## Description
 
