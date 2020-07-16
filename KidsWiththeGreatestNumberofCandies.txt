@@ -1,0 +1,31 @@
+// Runtime: 2 ms, faster than 22.75% of Java online submissions for Kids With the Greatest Number of Candies.
+// Memory Usage: 40.1 MB, less than 10.31% of Java online submissions for Kids With the Greatest Number of Candies.
+
+class Solution {
+    public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
+        
+        ArrayList<Boolean> array = new ArrayList<>();
+        
+        int largest = 0;
+        int total = 0;
+        
+        for (int child : candies) {
+            if (child > largest) {
+                largest = child;
+            }
+        }
+        
+        for (int child : candies) {
+            total = child + extraCandies;
+            if (total >= largest) {
+                array.add(true);
+            }
+            else {
+                array.add(false);
+            }
+        }
+        
+        return array;
+        
+    }
+}
