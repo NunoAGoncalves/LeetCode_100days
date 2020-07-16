@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-6/100 so far. 
+7/100 so far. 
 
 ## Questions Completed
 
@@ -17,6 +17,8 @@ Shuffle the Array - Completed on 13/07/2020 ✓
 Group the People Given the Group Size They Belong To - Completed on 14/07/2020 ✓
 
 Path Crossing - Completed on 15/07/2020 ✓
+
+Kids With the Greatest Number of Candies - Completed on 16/07/2020 ✓
 
 ## Description
 
