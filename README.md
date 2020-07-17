@@ -2,11 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-<<<<<<< HEAD
-8/100 so far. 
-=======
-7/100 so far. 
->>>>>>> 79a1fe5da4df2f25682d7fea617aef7209da3d17
+8/100 so far.
 
 ## Questions Completed
 
@@ -23,12 +19,10 @@ Group the People Given the Group Size They Belong To - Completed on 14/07/2020 �
 Path Crossing - Completed on 15/07/2020 ✓
 
 Kids With the Greatest Number of Candies - Completed on 16/07/2020 ✓
-
-<<<<<<< HEAD
 Subtract the Product and Sum of Digits of an Integer - ompleted on 17/07/2020 ✓
 
 =======
->>>>>>> 79a1fe5da4df2f25682d7fea617aef7209da3d17
+
 ## Description
 
 This is a repository that holds all the LeetCode questions I completed in this 100-day challenge.
