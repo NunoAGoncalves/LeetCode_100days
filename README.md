@@ -19,9 +19,9 @@ Group the People Given the Group Size They Belong To - Completed on 14/07/2020 �
 Path Crossing - Completed on 15/07/2020 ✓
 
 Kids With the Greatest Number of Candies - Completed on 16/07/2020 ✓
-Subtract the Product and Sum of Digits of an Integer - ompleted on 17/07/2020 ✓
 
-=======
+Subtract the Product and Sum of Digits of an Integer - Completed on 17/07/2020 ✓
+
 
 ## Description
 
