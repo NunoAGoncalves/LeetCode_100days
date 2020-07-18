@@ -1,0 +1,23 @@
+//Runtime: 1 ms, faster than 28.70% of Java online submissions for Number of Steps to Reduce a Number to Zero.
+//Memory Usage: 37.8 MB, less than 16.79% of Java online submissions for Number of Steps to Reduce a Number to Zero.
+
+class Solution {
+    public int numberOfSteps (int num) {
+        int steps = 0;
+        
+        while (num != 0) {
+            
+            if (num % 2 == 0) {
+                num = num / 2;
+                steps += 1;
+            }
+            
+            else {
+                num = num - 1;
+                steps += 1;
+            }
+        }
+        
+        return steps;
+    }
+}
