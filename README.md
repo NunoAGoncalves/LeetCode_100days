@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-9/100 so far.
+10/100 so far.
 
 ## Questions Completed
 
@@ -23,6 +23,8 @@ Kids With the Greatest Number of Candies - Completed on 16/07/2020 ✓
 Subtract the Product and Sum of Digits of an Integer - Completed on 17/07/2020 ✓
 
 Number of Steps to Reduce a Number to Zero - Completed on 18/07/2020 ✓
+
+Univalued Tree - Completed on 19/07/2020 ✓
 
 ## Description
 
