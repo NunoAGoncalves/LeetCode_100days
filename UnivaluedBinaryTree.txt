@@ -1,0 +1,53 @@
+// Runtime: 0 ms, faster than 100.00% of Java online submissions for Univalued Binary Tree.
+// Memory Usage: 37.1 MB, less than 49.15% of Java online submissions for Univalued Binary Tree.
+
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public boolean isUnivalTree(TreeNode root) {
+                
+        if (root.right != null && root.left != null) {
+            if ((root.val == root.right.val) && (root.val == root.left.val)) {
+                 return isUnivalTree(root.right) && isUnivalTree(root.left);
+            }
+            else {
+                return false;
+            }  
+        }
+        
+        if (root.left != null) {
+            if (root.val == root.left.val) {
+                 return isUnivalTree(root.left);
+            }
+            else {
+                return false;
+            }  
+        }
+        
+        if (root.right != null) {
+            if (root.val == root.right.val) {
+                 return isUnivalTree(root.right);
+            }
+            else {
+                return false;
+            }  
+        }
+        
+        return true;
+        
+    }
+}
