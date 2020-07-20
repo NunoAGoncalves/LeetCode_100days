@@ -26,6 +26,8 @@ Number of Steps to Reduce a Number to Zero - Completed on 18/07/2020 ✓
 
 Univalued Tree - Completed on 19/07/2020 ✓
 
+How Many Numbers Are Smaller Than The Current Number - Completed on 20/07/2020 ✓
+
 ## Description
 
 This is a repository that holds all the LeetCode questions I completed in this 100-day challenge.
