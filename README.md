@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-11/100 so far.
+12/100 so far.
 
 ## Questions Completed
 
@@ -27,6 +27,8 @@ Number of Steps to Reduce a Number to Zero - Completed on 18/07/2020 ✓
 Univalued Tree - Completed on 19/07/2020 ✓
 
 How Many Numbers Are Smaller Than The Current Number - Completed on 20/07/2020 ✓
+
+Sum of Nodes with Even-Valued Grandparent - Completed on 21/07/2020 ✓
 
 ## Description
 
