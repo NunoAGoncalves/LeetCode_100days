@@ -1,0 +1,63 @@
+//Runtime: 3 ms, faster than 29.68% of Java online submissions for Find a Corresponding Node of a Binary Tree in a Clone of That Tree.
+//Memory Usage: 114.5 MB, less than 5.00% of Java online submissions for Find a Corresponding Node of a Binary Tree in a Clone of That Tree.
+
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+
+class Solution {
+    public final TreeNode getTargetCopy(final TreeNode original, final TreeNode cloned, final TreeNode target) {  
+        
+        if (cloned.val == target.val) {
+            return cloned;
+        }
+        
+        if ((cloned.left != null) && (cloned.right != null)) {
+            if (cloned.left.val == target.val) {
+                return cloned.left;
+            }
+            if (cloned.right.val == target.val) {
+                return cloned.right;
+            }
+            else {
+                TreeNode possibleTargetLeft = getTargetCopy(original.left, cloned.left, target);
+                TreeNode possibleTargetRight = getTargetCopy(original.right, cloned.right, target);
+                
+                if (possibleTargetLeft != null) {
+                    return possibleTargetLeft;
+                }
+                else {
+                    return possibleTargetRight;
+                }
+            }
+        }
+        
+        if (cloned.left != null) {
+            if (cloned.left.val == target.val) {
+                return cloned.left;
+            }
+            else {
+                return getTargetCopy(original.left, cloned.left, target);
+            }
+        }
+        
+        if (cloned.right != null) {
+            if (cloned.right.val == target.val) {
+                return cloned.right;
+            }
+            else {
+                return getTargetCopy(original.right, cloned.right, target);
+            }
+        }
+            
+        return null;
+        
+        }
+    }
