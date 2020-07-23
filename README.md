@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-13/100 so far.
+14/100 so far.
 
 ## Questions Completed
 
@@ -31,6 +31,8 @@ How Many Numbers Are Smaller Than The Current Number - Completed on 20/07/2020 �
 Sum of Nodes with Even-Valued Grandparent - Completed on 21/07/2020 ✓
 
 Find a Corresponding Node of a Binary Tree in a Clone of That Tree - Completed on 22/07/2020 ✓
+
+Convert Binary Number in a Linked List to Integer - Completed on 23/07/2020 ✓
 
 ## Description
 
