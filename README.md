@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-14/100 so far.
+15/100 so far.
 
 ## Questions Completed
 
@@ -33,6 +33,8 @@ Sum of Nodes with Even-Valued Grandparent - Completed on 21/07/2020 ✓
 Find a Corresponding Node of a Binary Tree in a Clone of That Tree - Completed on 22/07/2020 ✓
 
 Convert Binary Number in a Linked List to Integer - Completed on 23/07/2020 ✓
+
+XOR Operation in an Array - Completed on 24/07/2020 ✓
 
 ## Description
 
