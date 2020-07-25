@@ -1,0 +1,33 @@
+//Runtime: 24 ms, faster than 95.26% of Java online submissions for Subrectangle Queries.
+//Memory Usage: 42.4 MB, less than 100.00% of Java online submissions for Subrectangle Queries.
+
+class SubrectangleQueries {
+    
+    int[][] queryRectangle;
+
+    public SubrectangleQueries(int[][] rectangle) {
+        queryRectangle = rectangle;
+    }
+    
+    public void updateSubrectangle(int row1, int col1, int row2, int col2, int newValue) {
+        
+        //row -> row then column -> column
+        for (int i = row1; i <= row2; i++) {
+            for (int j = col1; j <= col2; j++) {
+                queryRectangle[i][j] = newValue;
+            }
+        }
+        
+    }
+    
+    public int getValue(int row, int col) {
+        return queryRectangle[row][col];
+    }
+}
+
+/**
+ * Your SubrectangleQueries object will be instantiated and called as such:
+ * SubrectangleQueries obj = new SubrectangleQueries(rectangle);
+ * obj.updateSubrectangle(row1,col1,row2,col2,newValue);
+ * int param_2 = obj.getValue(row,col);
+ */

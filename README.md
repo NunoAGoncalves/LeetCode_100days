@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-15/100 so far.
+16/100 so far.
 
 ## Questions Completed
 
@@ -35,6 +35,8 @@ Find a Corresponding Node of a Binary Tree in a Clone of That Tree - Completed o
 Convert Binary Number in a Linked List to Integer - Completed on 23/07/2020 ✓
 
 XOR Operation in an Array - Completed on 24/07/2020 ✓
+
+Subrectangle Queries - Completed on 25/07/2020 ✓
 
 ## Description
 
