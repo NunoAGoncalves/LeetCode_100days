@@ -1,0 +1,16 @@
+//Runtime: 1 ms, faster than 100.00% of Java online submissions for Shuffle String.
+//Memory Usage: 39.8 MB, less than 100.00% of Java online submissions for Shuffle String.
+
+
+class Solution {
+    public String restoreString(String s, int[] indices) {
+
+        char[] new_s = new char[s.length()];
+        
+        for (int i = 0; i < s.length(); i++) {
+            new_s[indices[i]] = s.charAt(i);
+        }
+        
+        return String.valueOf(new_s);
+    }
+}
