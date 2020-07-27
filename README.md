@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-17/100 so far.
+18/100 so far.
 
 ## Questions Completed
 
@@ -39,6 +39,8 @@ XOR Operation in an Array - Completed on 24/07/2020 ✓
 Subrectangle Queries - Completed on 25/07/2020 ✓
 
 Shuffle String - Completed on 26/07/2020 ✓
+
+Decompress Run-Length Encoded List - Completed on 27/07/2020 ✓
 
 ## Description
 
