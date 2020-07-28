@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-18/100 so far.
+19/100 so far.
 
 ## Questions Completed
 
