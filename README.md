@@ -42,6 +42,8 @@ Shuffle String - Completed on 26/07/2020 ✓
 
 Decompress Run-Length Encoded List - Completed on 27/07/2020 ✓
 
+Find Numbers with Even Number of Digits - Completed on 28/07/2020 ✓
+
 ## Description
 
 This is a repository that holds all the LeetCode questions I completed in this 100-day challenge.
