@@ -1,0 +1,33 @@
+// Runtime: 1 ms, faster than 95.92% of Java online submissions for Find Numbers with Even Number of Digits.
+// Memory Usage: 39.2 MB, less than 33.40% of Java online submissions for Find Numbers with Even Number of Digits.
+
+class Solution {
+    public int findNumbers(int[] nums) {
+        // divide by 10 until < 0
+        
+        int digit_counter = 0;
+        int even_counter = 0;
+        int current;
+        
+        for (int i = 0; i < nums.length; i++) {
+            
+            current = nums[i];
+            digit_counter = 0;
+            
+            while (current > 9) { 
+                current = current / 10;
+                digit_counter += 1;  
+            }
+            
+            digit_counter += 1;
+            
+            
+            if (digit_counter % 2 == 0) {
+                even_counter += 1;
+            }
+            
+        }
+        
+        return even_counter;
+    }
+}
