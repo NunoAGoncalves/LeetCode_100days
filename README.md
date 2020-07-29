@@ -44,7 +44,7 @@ Decompress Run-Length Encoded List - Completed on 27/07/2020 ✓
 
 Find Numbers with Even Number of Digits - Completed on 28/07/2020 ✓
 
-Maximum 69 Number  Completed on 29/07/2020 ✓
+Maximum 69 Number - Completed on 29/07/2020 ✓
 
 ## Description
 
