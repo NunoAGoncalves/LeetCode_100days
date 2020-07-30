@@ -1,0 +1,17 @@
+// Runtime: 7 ms, faster than 6.63% of Java online submissions for Create Target Array in the Given Order.
+// Memory Usage: 40 MB, less than 5.40% of Java online submissions for Create Target Array in the Given Order.
+
+class Solution {
+    public int[] createTargetArray(int[] nums, int[] index) {
+        
+        int length = nums.length;
+        ArrayList<Integer> target = new ArrayList<Integer>();
+        
+        for (int i = 0; i < length; i++) {
+            target.add(index[i], nums[i]);
+        }
+        
+        int[] target_int = target.stream().mapToInt(i -> i).toArray();
+        return target_int;
+    }
+}
