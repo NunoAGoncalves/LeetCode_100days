@@ -1,0 +1,54 @@
+class Solution {
+    public boolean detectCapitalUse(String word) {
+        
+        int length = word.length();
+        int condition; 
+        
+        // condition 1 - first letter is capital, second letter/rest are capital
+        // condition 2 - first letter is capital, second letter/rest are not capital
+        // condition 3 - no letter is capital
+        
+        if (length < 2) {
+            return true;
+        }
+        
+        if (Character.isUpperCase(word.charAt(0))) {
+            if (Character.isUpperCase(word.charAt(1))) {
+                condition = 1;
+            }
+            else {
+                condition = 2;
+            }
+        }
+        else {
+            condition = 3;
+        }
+        
+        switch(condition) {
+            case 1:
+                for (int i = 2; i < length; i++) {
+                    if (Character.isLowerCase(word.charAt(i))) {
+                        return false;
+                    }
+                }
+                return true;
+            case 2:
+                for (int i = 2; i < length; i++) {
+                    if (Character.isUpperCase(word.charAt(i))) {
+                        return false;
+                    }
+                }
+                return true;
+            case 3:
+                for (int i = 1; i < length; i++) {
+                    if (Character.isUpperCase(word.charAt(i))) {
+                        return false;
+                    }
+                }
+                return true;
+                // code block
+        }
+        
+       return false;
+    }
+}
