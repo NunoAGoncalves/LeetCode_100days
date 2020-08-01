@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-22/100 so far.
+23/100 so far.
 
 ## Questions Completed
 
@@ -49,6 +49,8 @@ Maximum 69 Number - Completed on 29/07/2020 ✓
 Create Target Array in the Given Order - Completed on 30/07/2020 ✓
 
 Maximum Product of Two Elements in an Array - Completed on 31/07/2020 ✓
+
+Detect Capitals - Completed on 01/08/2020 ✓
 
 ## Description
 
