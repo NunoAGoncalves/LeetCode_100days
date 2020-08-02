@@ -1,0 +1,75 @@
+class MyHashSet {
+    
+    private HashMap<Integer, LinkedList<Integer>> hmap;
+    
+    /** Initialize your data structure here. */
+    public MyHashSet() {
+       hmap = new HashMap<Integer, LinkedList<Integer>>();
+    }
+    
+    public void add(int key) {
+        
+        int hashKey = (int) Math.floor(1000000 * (key * 0.4 % 1.0));
+        
+        LinkedList<Integer> collisionNumbers = hmap.get(hashKey);
+        
+        if (collisionNumbers == null) {
+            collisionNumbers = new LinkedList<Integer>();
+            collisionNumbers.add(key);
+            hmap.put(hashKey, collisionNumbers); 
+            return;
+        }
+        
+        if (collisionNumbers.contains(Integer.valueOf(key))) {
+            return;
+        }
+        
+        hmap.get(hashKey).add(key);  
+        
+    }
+    
+    public void remove(int key) {
+        int hashKey = (int) Math.floor(1000000 * (key * 0.4 % 1.0));
+        
+        LinkedList<Integer> collisionNumbers = hmap.get(hashKey);
+        
+        if (collisionNumbers == null) {
+            return;
+        }
+        
+        if (collisionNumbers.isEmpty()) {
+            return;
+        }
+        
+        if (!collisionNumbers.contains(key)) {
+            return;
+        }
+        
+        hmap.get(hashKey).remove(Integer.valueOf(key)); 
+    }
+    
+    /** Returns true if this set contains the specified element */
+    public boolean contains(int key) {
+        int hashKey = (int) Math.floor(1000000 * (key * 0.4 % 1.0));
+        
+        LinkedList<Integer> collisionNumbers = hmap.get(hashKey);
+        
+        if (collisionNumbers == null) {
+            return false;
+        }
+        
+        if (collisionNumbers.isEmpty()) {
+            return false;
+        }
+        
+        return collisionNumbers.contains(Integer.valueOf(key));
+    }
+}
+
+/**
+ * Your MyHashSet object will be instantiated and called as such:
+ * MyHashSet obj = new MyHashSet();
+ * obj.add(key);
+ * obj.remove(key);
+ * boolean param_3 = obj.contains(key);
+ */
