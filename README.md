@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-23/100 so far.
+24/100 so far.
 
 ## Questions Completed
 
@@ -51,6 +51,8 @@ Create Target Array in the Given Order - Completed on 30/07/2020 ✓
 Maximum Product of Two Elements in an Array - Completed on 31/07/2020 ✓
 
 Detect Capitals - Completed on 01/08/2020 ✓
+
+Design HashSet - Completed on 02/08/2020 ✓
 
 ## Description
 
