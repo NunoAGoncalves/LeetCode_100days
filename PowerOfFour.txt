@@ -1,0 +1,19 @@
+class Solution {
+    public boolean isPowerOfFour(int num) {
+        
+        // 4^x = num
+        // log(4^x) = log(num)
+        // x log(4) = log(num)
+        // x = log(num) / log(4)
+        // Then we can check whether x (root) is an integer to confirm our answer
+        
+        double root = Math.log(num) / Math.log(4);
+
+        if (root == Math.floor(root) && num != 0) {
+            return true;
+        }
+        
+        return false;
+        
+    }
+}

@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-24/100 so far.
+25/100 so far.
 
 ## Questions Completed
 
@@ -53,6 +53,8 @@ Maximum Product of Two Elements in an Array - Completed on 31/07/2020 ✓
 Detect Capitals - Completed on 01/08/2020 ✓
 
 Design HashSet - Completed on 02/08/2020 ✓
+
+Valid Palindrome - Completed on 03/08/2020 ✓
 
 ## Description
 
