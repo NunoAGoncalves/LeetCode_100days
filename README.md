@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-25/100 so far.
+26/100 so far.
 
 ## Questions Completed
 
@@ -55,6 +55,8 @@ Detect Capitals - Completed on 01/08/2020 ✓
 Design HashSet - Completed on 02/08/2020 ✓
 
 Valid Palindrome - Completed on 03/08/2020 ✓
+
+Power of Four - Completed on 04/08/2020 ✓
 
 ## Description
 
