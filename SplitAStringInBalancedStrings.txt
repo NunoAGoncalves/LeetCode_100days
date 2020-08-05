@@ -1,0 +1,27 @@
+// Runtime: 1 ms, faster than 37.69% of Java online submissions for Split a String in Balanced Strings.
+// Memory Usage: 38.6 MB, less than 5.06% of Java online submissions for Split a String in Balanced Strings.
+
+class Solution {
+    public int balancedStringSplit(String s) {
+        int r_int = 0;
+        int l_int = 0;
+        int value = 0;
+        
+        for (char ch: s.toCharArray()) {
+            if (ch == 'R') {
+                r_int += 1;
+                l_int -= 1;
+            }
+            else {
+                l_int += 1;
+                r_int -= 1;
+            }
+            
+            if (l_int == r_int) {
+                value += 1;
+            }
+        }
+        
+        return value;
+    }
+}
