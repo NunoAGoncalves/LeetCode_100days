@@ -1,0 +1,61 @@
+import java.lang.Math; 
+
+class Solution {
+    public int minTimeToVisitAllPoints(int[][] points) {
+        //take the first one
+        //compare the coordinates.
+        // if both coordinates are bigger (+1)
+        //if both coordinates are smaller (-1)
+        //if a is equal and b is not (bigger) (=1 on b)
+        //vice versa
+        //if they are equal change goal node to the next one
+        //return once there are no more goal nodes.
+        
+        int n = points.length;
+            
+        if (n < 2) {
+            return 0;
+        }
+        
+        int second = 0;
+        
+        int currentPoints = 0;
+        int[] currentPosition = points[currentPoints];
+        
+        int nextPoint = 1;
+        int[] nextPosition = points[nextPoint];
+        
+        
+        while (true) {
+            if (currentPosition[0] == nextPosition[0] && currentPosition[1] == nextPosition[1]) {
+                if (nextPoint == n - 1) {
+                    return second;
+                }
+                
+                nextPoint += 1;
+                nextPosition = points[nextPoint];
+                
+            }
+            
+            int sum1 = Math.abs(currentPosition[0] - nextPosition[0]);
+            int sum2 = Math.abs(currentPosition[1] - nextPosition[1]);
+            
+            if (sum1 > sum2) {
+                second += sum1;
+            }
+            else {
+                second += sum2;
+            }
+                
+            if (nextPoint == n - 1) {
+                return second;
+            }
+                
+            currentPosition = nextPosition;
+                
+            nextPoint += 1;
+            nextPosition = points[nextPoint];
+        
+        }
+    }
+}
