@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-27/100 so far.
+28/100 so far.
 
 ## Questions Completed
 
@@ -59,6 +59,8 @@ Valid Palindrome - Completed on 03/08/2020 ✓
 Power of Four - Completed on 04/08/2020 ✓
 
 Split a String in Balanced Strings - Completed on 05/08/2020 ✓
+
+Minimum Time Visiting All Points - Completed on 06/08/2020 ✓
 
 ## Description
 
