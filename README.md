@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-28/100 so far.
+29/100 so far.
 
 ## Questions Completed
 
@@ -61,6 +61,8 @@ Power of Four - Completed on 04/08/2020 ✓
 Split a String in Balanced Strings - Completed on 05/08/2020 ✓
 
 Minimum Time Visiting All Points - Completed on 06/08/2020 ✓
+
+Find All Duplicates in an Array - Completed on 07/08/2020 ✓
 
 ## Description
 
