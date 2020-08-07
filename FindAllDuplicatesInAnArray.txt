@@ -1,0 +1,22 @@
+import java.lang.Math;
+
+class Solution {
+    public List<Integer> findDuplicates(int[] nums) {
+        
+        int length = nums.length;
+        List<Integer> duplicateNums = new ArrayList<Integer>();
+        
+        for (int i = 0; i < length; i++) {
+            
+            int position = Math.abs(nums[i]);
+            if (nums[position - 1] < 0) {
+                duplicateNums.add(position);
+                continue;
+            }
+            nums[position - 1] = nums[position - 1] * -1;
+        }
+        
+        return duplicateNums;
+        
+    }
+}
