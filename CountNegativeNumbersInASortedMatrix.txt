@@ -1,0 +1,20 @@
+// Runtime: 1 ms, faster than 59.38% of Java online submissions for Count Negative Numbers in a Sorted Matrix.
+// Memory Usage: 40.2 MB, less than 50.77% of Java online submissions for Count Negative Numbers in a Sorted Matrix.
+
+class Solution {
+    public int countNegatives(int[][] grid) {
+        int columnLength = grid[0].length;
+        int rowLength = grid.length;
+        int sum = 0;
+        
+        for (int i = 0; i < columnLength; i++) {
+            for (int j = 0; j < rowLength; j++) {
+                if (grid[j][i] < 0) {
+                    sum += 1;
+                }
+            }
+        }
+        
+        return sum;
+    }
+}

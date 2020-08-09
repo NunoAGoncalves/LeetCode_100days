@@ -1,0 +1,148 @@
+class Solution {
+    public int orangesRotting(int[][] grid) {
+        
+        int rowLength = grid.length;
+        int columnLength = grid[0].length;
+        
+        int numberOfIterations = 0;
+        
+        // used to check whether the grid is possible
+        for (int i = 0; i < rowLength; i++) {
+            for (int j = 0; j < columnLength; j++) {
+                
+                int check = 0;
+                int possible = 4;
+                
+                if (grid[i][j] == 1) {
+                    
+                    if (i != 0) {
+                        if (grid[i - 1][j] == 0) {
+                            check++;
+                        }
+                    }
+                    else {
+                        possible--;
+                    }
+                    
+                    if (j != 0) {
+                        if (grid[i][j - 1] == 0) {
+                            check++;
+                        }
+                    }
+                    else {
+                        possible--;
+                    }
+
+                    if (i != rowLength - 1) {
+                        if (grid[i + 1][j] == 0) {
+                            check++;
+                        }
+                    }
+                    else {
+                        possible--;
+                    }
+
+                    if (j != columnLength - 1) {
+                        if (grid[i][j + 1] == 0) {
+                            check++; 
+                        }
+                    }
+                    else {
+                        possible--;
+                    }
+                    
+                }
+                
+                if (check == possible) {
+                    return -1;
+                }
+            }
+        }
+        
+        int minutes = 0;
+        
+        int[][] duplicate = new int[rowLength][columnLength];
+        
+        // used to create a duplicate of the grid
+        for (int i = 0; i < rowLength; i++) {
+            for (int j = 0; j < columnLength; j++) {
+                duplicate[i][j] = grid[i][j];
+            }
+        }
+
+        while (true) {
+            
+            int numberOfFresh = 0;
+            int numberOfRotten = 0;
+            numberOfIterations++;
+            
+            if (numberOfIterations == 100) {
+                return -1;
+            }
+            
+            //used to check whether the grid is complete
+            for (int i = 0; i < rowLength; i++) {
+                for (int j = 0; j < columnLength; j++) {
+                    if (grid[i][j] == 1) {
+                        numberOfFresh++;
+                    }
+                    if (grid[i][j] == 2) {
+                        numberOfRotten++;
+                    }
+                }
+            }
+            
+            if (numberOfFresh == 0) {
+                return minutes;
+            }
+            
+            if (numberOfRotten == 0) {
+                return -1;
+            }
+            
+            minutes++;
+            
+            //convert - converts fresh oranges to rotten
+            for (int i = 0; i < rowLength; i++) {
+                for (int j = 0; j < columnLength; j++) {
+                    if (grid[i][j] == 2) {
+                        
+                        if (i != 0) {
+                            if (grid[i - 1][j] == 1) {
+                                duplicate[i - 1][j] = 2;
+                            }
+                        }
+
+                        if (j != 0) {
+                            if (grid[i][j - 1] == 1) {
+                                duplicate[i][j - 1] = 2;
+                            }
+                        }
+
+                        if (i != rowLength - 1) {
+                            if (grid[i + 1][j] == 1) {
+                                duplicate[i + 1][j] = 2;
+                            }
+                        }
+
+                        if (j != columnLength - 1) {
+                            if (grid[i][j + 1] == 1) {
+                                duplicate[i][j + 1] = 2;   
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            
+            // replaces the grid with the duplicate
+            for (int i = 0; i < rowLength; i++) {
+                for (int j = 0; j < columnLength; j++) {
+                    grid[i][j] = duplicate[i][j];
+                }
+            } 
+            
+            
+        }
+    }
+}
