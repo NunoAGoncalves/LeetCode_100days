@@ -1,0 +1,25 @@
+class Solution {
+    public int titleToNumber(String s) {
+        //break it up and multiply.
+    
+        char[] ch  = s.toCharArray();
+        int length = ch.length;
+        int totalValue = 0;
+        int index = length;
+        
+        for (char c : ch) {
+            int temp = (int)c;
+            int temp_integer = 64; //for upper case
+            
+            if (temp <= 90 & temp >= 65) {
+                //get index
+                index--; 
+                int value = (temp - temp_integer) * (int) Math.pow(26, index); 
+                totalValue += value;
+            }
+        }
+        
+        return totalValue;
+        
+    }
+}
