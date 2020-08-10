@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-31/100 so far.
+32/100 so far.
 
 ## Questions Completed
 
@@ -67,6 +67,8 @@ Find All Duplicates in an Array - Completed on 07/08/2020 ✓
 Count Negative Numbers in a Sorted Mtrix - Completed on 08/08/2020 ✓
 
 Rotting Oranges - Completedd on 09/08/2020 ✓
+
+Excel Sheet Column Number - Completed on 10/08/2020 ✓
 
 ## Description
 
