@@ -70,6 +70,8 @@ Rotting Oranges - Completedd on 09/08/2020 ✓
 
 Excel Sheet Column Number - Completed on 10/08/2020 ✓
 
+Generate a String With Characters That Have Odd Counts - Completed on 11/08/2020 ✓
+
 ## Description
 
 This is a repository that holds all the LeetCode questions I completed in this 100-day challenge.
