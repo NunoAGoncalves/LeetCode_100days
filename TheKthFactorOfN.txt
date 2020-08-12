@@ -1,0 +1,24 @@
+// Runtime: 1 ms, faster than 80.19% of Java online submissions for The kth Factor of n.
+// Memory Usage: 37.3 MB, less than 54.84% of Java online submissions for The kth Factor of n.
+
+class Solution {
+    public int kthFactor(int n, int k) {
+        //find factors
+        int arr[] = new int[1000];
+        int index = 0;
+        for (int i = 1; i < n/2 + 1; i++ ) {
+            if (n % i == 0) {
+                arr[index] = i;
+                index++;
+            }
+        }
+        
+        arr[index] = n;
+
+        if (index < k - 1) {
+            return -1;
+        }
+        
+        return arr[k - 1];
+    }
+}
