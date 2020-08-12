@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-32/100 so far.
+33/100 so far.
 
 ## Questions Completed
 
@@ -69,6 +69,8 @@ Count Negative Numbers in a Sorted Mtrix - Completed on 08/08/2020 ✓
 Rotting Oranges - Completedd on 09/08/2020 ✓
 
 Excel Sheet Column Number - Completed on 10/08/2020 ✓
+
+Generate a String With Characters That Have Odd Counts - Completed on 11/08/2020 ✓
 
 ## Description
 
