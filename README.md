@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-33/100 so far.
+34/100 so far.
 
 ## Questions Completed
 
@@ -71,6 +71,8 @@ Rotting Oranges - Completedd on 09/08/2020 ✓
 Excel Sheet Column Number - Completed on 10/08/2020 ✓
 
 Generate a String With Characters That Have Odd Counts - Completed on 11/08/2020 ✓
+
+Find N Unique Integers Sum up to Zero - Completed on 13/08/2020 ✓
 
 ## Description
 
