@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-34/100 so far.
+35/100 so far.
 
 ## Questions Completed
 
@@ -75,6 +75,8 @@ Generate a String With Characters That Have Odd Counts - Completed on 11/08/2020
 The kth Factor of n - Completed on 12/08/2020 ✓
 
 Find N Unique Integers Sum up to Zero - Completed on 13/08/2020 ✓
+
+Occurrences After Bigram - Completed on 14/08/2020 ✓
 
 ## Description
 

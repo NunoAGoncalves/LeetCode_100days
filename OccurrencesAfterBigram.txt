@@ -1,0 +1,20 @@
+// Runtime: 0 ms, faster than 100.00% of Java online submissions for Occurrences After Bigram.
+// Memory Usage: 37.3 MB, less than 91.77% of Java online submissions for Occurrences After Bigram.
+
+class Solution {
+    public String[] findOcurrences(String text, String first, String second) {
+        
+        String[] stringArray = text.split(" ");
+        List<String> occurrencesList = new ArrayList<String>();
+        int length = stringArray.length;
+        
+        for (int i = 0; i < length; i++) {
+            if (stringArray[i].equals(first) && i < length - 2) {
+                if (stringArray[i + 1].equals(second)) occurrencesList.add(stringArray[i + 2]);
+            }
+        }
+        
+        return occurrencesList.toArray(new String[] {});
+        
+    }
+}
