@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-35/100 so far.
+36/100 so far.
 
 ## Questions Completed
 
@@ -77,6 +77,8 @@ The kth Factor of n - Completed on 12/08/2020 ✓
 Find N Unique Integers Sum up to Zero - Completed on 13/08/2020 ✓
 
 Occurrences After Bigram - Completed on 14/08/2020 ✓
+
+Average Salary Excluding the Minimum and Maximum Salary - Completed on 15/08/2020 ✓
 
 ## Description
 
