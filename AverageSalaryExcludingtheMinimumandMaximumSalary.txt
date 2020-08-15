@@ -1,0 +1,34 @@
+// Runtime: 0 ms, faster than 100.00% of Java online submissions for Average Salary Excluding the Minimum and Maximum Salary.
+// Memory Usage: 37.2 MB, less than 54.74% of Java online submissions for Average Salary Excluding the Minimum and Maximum Salary.
+
+class Solution {
+    public double average(int[] salary) {
+        
+        double minimum, maximum, total;
+        total = 0;
+        
+        if (salary[0] < salary[1]) {
+            minimum = salary[0];
+            maximum = salary[1];
+        }
+        else {
+            minimum = salary[1];
+            maximum = salary[0];
+        }
+        
+        
+        for (int i = 2; i < salary.length; i++) {
+           if (salary[i] > maximum) {
+               total += maximum;
+               maximum = salary[i];
+           }
+            else if (salary[i] < minimum) {
+                total += minimum;
+                minimum = salary[i];
+            }
+            else total += salary[i];
+        }
+        return total / (salary.length - 2);
+        
+    }
+}
