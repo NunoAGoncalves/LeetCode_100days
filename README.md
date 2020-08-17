@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-36/100 so far.
+38/100 so far.
 
 ## Questions Completed
 
@@ -66,7 +66,7 @@ Find All Duplicates in an Array - Completed on 07/08/2020 ✓
 
 Count Negative Numbers in a Sorted Mtrix - Completed on 08/08/2020 ✓
 
-Rotting Oranges - Completedd on 09/08/2020 ✓
+Rotting Oranges - Completed on 09/08/2020 ✓
 
 Excel Sheet Column Number - Completed on 10/08/2020 ✓
 
@@ -79,6 +79,10 @@ Find N Unique Integers Sum up to Zero - Completed on 13/08/2020 ✓
 Occurrences After Bigram - Completed on 14/08/2020 ✓
 
 Average Salary Excluding the Minimum and Maximum Salary - Completed on 15/08/2020 ✓
+
+Delete Node in a Linked List - Compeleted on 16/08/2020 ✓
+
+Distribute Candies to People - Completed on 17/08/2020 ✓
 
 ## Description
 
