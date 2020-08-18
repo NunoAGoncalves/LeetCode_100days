@@ -1,0 +1,19 @@
+// Runtime: 7 ms, faster than 83.89% of Java online submissions for Palindrome Number.
+// Memory Usage: 38.7 MB, less than 85.63% of Java online submissions for Palindrome Number.
+
+class Solution {
+    public boolean isPalindrome(int x) {
+        
+        char[] digit = String.valueOf(x).toCharArray();
+        int length = digit.length;
+        
+        for (int i = 0; i < length / 2; i++) {
+            if (digit[i] == digit[length - i - 1]) {
+                continue;
+            }
+            return false;
+        }
+        
+        return true;
+    }
+}
