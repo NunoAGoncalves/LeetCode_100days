@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-38/100 so far.
+39/100 so far.
 
 ## Questions Completed
 
@@ -83,6 +83,8 @@ Average Salary Excluding the Minimum and Maximum Salary - Completed on 15/08/202
 Delete Node in a Linked List - Compeleted on 16/08/2020 ✓
 
 Distribute Candies to People - Completed on 17/08/2020 ✓
+
+Palindrome Numbers - Completed on 18/08/2020 ✓
 
 ## Description
 
