@@ -2,7 +2,7 @@
 
 A LeetCode question a day for a hundred days. Ongoing development. 
 
-39/100 so far.
+40/100 so far.
 
 ## Questions Completed
 
@@ -85,6 +85,8 @@ Delete Node in a Linked List - Compeleted on 16/08/2020 ✓
 Distribute Candies to People - Completed on 17/08/2020 ✓
 
 Palindrome Numbers - Completed on 18/08/2020 ✓
+
+Number of Students Doing Homework at a Given Time - Completed on 19/08/2020 ✓
 
 ## Description
 
